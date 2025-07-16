@@ -113,7 +113,7 @@ redirect_from:
 .about-image img {
     width: 100%;
     height: auto;
-    max-width: 350px;
+    max-width: 500px;
     border-radius: 8px;
 }
 
