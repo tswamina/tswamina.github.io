@@ -45,7 +45,7 @@ I also write -- check out my garden.
         <div class="timeline-marker"></div>
         <div class="timeline-content">
             <div class="timeline-header">
-                <h3>Contrary / Research Fellow/h3>
+                <h3>Contrary / Research Fellow</h3>
                 <span class="timeline-date">Feb 2024 - Sep 2024</span>
             </div>
             <p class="timeline-description">Worked with the Contrary writing time to write and publish memos on impactful startups. Check out research.contrary.com</p>
@@ -73,7 +73,7 @@ I also write -- check out my garden.
                 <span class="timeline-date">Aug 2020 - Present</span>
             </div>
             <p class="timeline-description">A summer program I took part in during my junior year of high school. I learned about the art of rhetoric and read books that changed me.</p>
-            <p class="timeline-skills">writing, critical reading, community, democratic valyes</p>
+            <p class="timeline-skills">writing, critical reading, community, democratic values</p>
         </div>
     </div>
 </div>
