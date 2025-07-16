@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior at Pitt studying Biology+Philosophy. I'm currently working with [Dr. Harinder Singh](https://scholar.google.com/citations?user=lwaeuvkAAAAJ&hl=en) and [Dr. Min Xu](https://xulabs.github.io/min-xu/) at the Center for Systems Immunology (Pitt) and Ray and Stephanie Lane Computational Biology Department at Carnegie Mellon Univesity. 
+I am a senior at Pitt studying Biology+Philosophy. Currently, I'm working with [Dr. Harinder Singh](https://scholar.google.com/citations?user=lwaeuvkAAAAJ&hl=en) and [Dr. Min Xu](https://xulabs.github.io/min-xu/) at the Center for Systems Immunology (Pitt) and Ray and Stephanie Lane Computational Biology Department at Carnegie Mellon Univesity. 
 
 I am interested in translational science -- both wet and dry -- and have spent a majortiy of my time learning about transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems. My wet lab projects have revolved around pharmacological compound testing, developing cellular assays, and studying cell fate. Right now, I'm working with CMU grad students in the Xu lab on developing computer vision methods for the analysis of Cryo-ET 3D image data, and it's something I hope to get a lot better at over the next several months.
 
@@ -18,8 +18,8 @@ I also write -- check out my garden.
 
 <div class="content">
     <div class="text-container">
-        <h3>Lab/Project Name Here</h3>
-        <p class="project-brief">Brief one-sentence description of the project or lab work.</p>
+        <h3>Singh Lab / Single-Cell Database, B-cell bifurcation</h3>
+        <p class="project-brief"> scRNA, LIMS, data analysis, iPSC culturing.</p>
         <p class="project-details">Here's what I did: This is where you explain your specific contributions and work in 1-2 sentences. You can describe the technologies used, problems solved, or impact achieved.</p>
     </div>
     <img class="project-image" src="images/project1.jpg" alt="Project 1 Image">
