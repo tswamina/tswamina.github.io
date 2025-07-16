@@ -16,9 +16,6 @@ redirect_from:
         
         <p>I also write -- check out my garden.</p>
     </div>
-    <div class="about-image">
-        <img src="images/project1.jpg" alt="Research Network Visualization">
-    </div>
 </div>
 
 ## Experience
