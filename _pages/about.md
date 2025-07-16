@@ -80,10 +80,6 @@ I also write -- check out my garden.
     </div>
 </div>
 
-<div class="bottom-image">
-    <img src="images/project1.jpg" alt="Research Network Visualization">
-</div>
-
 <style>
 /* Timeline Styles */
 .timeline {
@@ -202,18 +198,4 @@ I also write -- check out my garden.
     .timeline-date {
         margin-top: 5px;
     }
-}
-
-/* Bottom Image */
-.bottom-image {
-    margin-top: 60px;
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.bottom-image img {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    border-radius: 8px;
 }</style>
