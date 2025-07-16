@@ -48,7 +48,7 @@ I also write -- check out my garden.
                 <h3>Contrary / Research Fellow</h3>
                 <span class="timeline-date">Feb 2024 - Sep 2024</span>
             </div>
-            <p class="timeline-description">Worked with the Contrary writing time to write and publish memos on impactful startups. Check out research.contrary.com</p>
+            <p class="timeline-description">Worked with the Contrary writing team to publish memos on impactful startups. Check out research.contrary.com</p>
             <p class="timeline-skills">sprint writing, landscape analysis, research</p>
         </div>
     </div>
