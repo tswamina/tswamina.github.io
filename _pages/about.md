@@ -21,10 +21,10 @@ I also write -- check out my garden.
         <div class="timeline-marker"></div>
         <div class="timeline-content">
             <div class="timeline-header">
-                <h3>Xu Lab / CryoET</h3>
+                <h3>Xu Lab </h3>
                 <span class="timeline-date">Jul 2025 - Present</span>
             </div>
-            <p class="timeline-description">In progress. More to come on my Google Scholar.</p>
+            <p class="timeline-description">More to come on my Google Scholar.</p>
             <p class="timeline-skills">ML, image analysis</p>
         </div>
     </div>
