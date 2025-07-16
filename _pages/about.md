@@ -72,7 +72,7 @@ I also write -- check out my garden.
                 <h3>TASS Alum / Volunteer and Interviewer</h3>
                 <span class="timeline-date">Aug 2020 - Present</span>
             </div>
-            <p class="timeline-description">A summer program I took part in during my junior year of high school. I learned about the art of rhetoric and read books that changed me.</p>
+            <p class="timeline-description">A summer program I took part in at Cornell during my junior year of high school. I learned about the art of rhetoric and read books that changed me. tellurideassociation.org</p>
             <p class="timeline-skills">writing, critical reading, community, democratic values</p>
         </div>
     </div>
