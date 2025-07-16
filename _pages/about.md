@@ -16,74 +16,109 @@ I also write -- check out my garden.
 
 ## Experience
 
-<div class="timeline">
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>Singh Lab / B-cell Bifurcation</h3>
-                <span class="timeline-date">Current</span>
+<div class="experience-container">
+    <div class="timeline-section">
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Singh Lab / B-cell Bifurcation</h3>
+                        <span class="timeline-date">Current</span>
+                    </div>
+                    <p class="timeline-description">Built a single-cell database using shiny; got comfortable with single-cell workflows and different data types. Wet lab experiments included westerns, genotyping, DNA/RNA extraction, plasmid design+transfection.</p>
+                    <p class="timeline-skills">scRNA, LIMS, iPS culturing, data analysis, flow cytometry</p>
+                </div>
             </div>
-            <p class="timeline-description">Built a single-cell database using shiny; got comfortable with single-cell workflows and different data types. Wet lab experiments included westerns, genotyping, DNA/RNA extraction, plasmid design+transfection.</p>
-            <p class="timeline-skills">scRNA, LIMS, iPS culturing, data analysis, flow cytometry</p>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Xu Lab / CryoET Data Analysis</h3>
+                        <span class="timeline-date">Current</span>
+                    </div>
+                    <p class="timeline-description">In progress. More to come on my Google Scholar.</p>
+                    <p class="timeline-skills">Machine learning, computer vision, CryoET, image analysis</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>GSK / Rockville, MD</h3>
+                        <span class="timeline-date">Previous</span>
+                    </div>
+                    <p class="timeline-description">Worked on a second-generation Lupus mAB, wrote a bunch of reports for an FDA campaign (which we passed!!), and learned about therapeutics from fantastic engineers.</p>
+                    <p class="timeline-skills">Bioprocessing, BLA campaign, treatment pipelines, mAB development, FDA documentation</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Position Title</h3>
+                        <span class="timeline-date">Date Range</span>
+                    </div>
+                    <p class="timeline-description">Description of your role and accomplishments here.</p>
+                    <p class="timeline-skills">Skill 1, skill 2, skill 3, skill 4</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Position Title</h3>
+                        <span class="timeline-date">Date Range</span>
+                    </div>
+                    <p class="timeline-description">Description of your role and accomplishments here.</p>
+                    <p class="timeline-skills">Skill 1, skill 2, skill 3, skill 4</p>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>Xu Lab / CryoET Data Analysis</h3>
-                <span class="timeline-date">Current</span>
-            </div>
-            <p class="timeline-description">In progress. More to come on my Google Scholar.</p>
-            <p class="timeline-skills">Machine learning, computer vision, CryoET, image analysis</p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>GSK / Rockville, MD</h3>
-                <span class="timeline-date">Previous</span>
-            </div>
-            <p class="timeline-description">Worked on a second-generation Lupus mAB, wrote a bunch of reports for an FDA campaign (which we passed!!), and learned about therapeutics from fantastic engineers.</p>
-            <p class="timeline-skills">Bioprocessing, BLA campaign, treatment pipelines, mAB development, FDA documentation</p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>Position Title</h3>
-                <span class="timeline-date">Date Range</span>
-            </div>
-            <p class="timeline-description">Description of your role and accomplishments here.</p>
-            <p class="timeline-skills">Skill 1, skill 2, skill 3, skill 4</p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>Position Title</h3>
-                <span class="timeline-date">Date Range</span>
-            </div>
-            <p class="timeline-description">Description of your role and accomplishments here.</p>
-            <p class="timeline-skills">Skill 1, skill 2, skill 3, skill 4</p>
-        </div>
+    
+    <div class="image-section">
+        <img src="images/project1.jpg" alt="Research Network Visualization" class="experience-image">
     </div>
 </div>
 
 <style>
+/* Container Layout */
+.experience-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.timeline-section {
+    flex: 2.3;
+    min-width: 300px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.experience-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
 /* Timeline Styles */
 .timeline {
     position: relative;
     padding: 20px 0;
-    margin-top: 20px;
 }
 
 .timeline::before {
@@ -128,32 +163,51 @@ I also write -- check out my garden.
 
 .timeline-header h3 {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 600;
     color: #333;
 }
 
 .timeline-date {
-    font-size: 0.9em;
+    font-size: 0.85em;
     color: #666;
     font-style: italic;
 }
 
 .timeline-description {
     color: #555;
-    line-height: 1.6;
+    line-height: 1.5;
     margin-bottom: 8px;
-    font-size: 0.95em;
+    font-size: 0.9em;
 }
 
 .timeline-skills {
     color: #777;
     font-style: italic;
-    font-size: 0.9em;
+    font-size: 0.85em;
     margin: 0;
 }
 
 /* Responsive Design */
+@media (max-width: 968px) {
+    .experience-container {
+        flex-direction: column;
+    }
+    
+    .timeline-section {
+        width: 100%;
+    }
+    
+    .image-section {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .experience-image {
+        max-width: 400px;
+    }
+}
+
 @media (max-width: 768px) {
     .timeline::before {
         left: 15px;
