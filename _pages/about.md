@@ -16,9 +16,7 @@ I also write -- check out my garden.
 
 ## Experience
 
-<div class="experience-container">
-    <div class="timeline-section">
-        <div class="timeline">
+<div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
@@ -80,46 +78,18 @@ I also write -- check out my garden.
             </div>
         </div>
     </div>
-    
-    <div class="image-section">
-        <img src="images/project1.jpg" alt="Research Network Visualization" class="experience-image">
-    </div>
+</div>
+
+<div class="bottom-image">
+    <img src="images/project1.jpg" alt="Research Network Visualization">
 </div>
 
 <style>
-/* Experience Container Layout */
-.experience-container {
-    display: flex;
-    gap: 40px;
-    align-items: stretch;
-    margin-top: 20px;
-}
-
-.timeline-section {
-    flex: 2;
-    min-width: 300px;
-}
-
-.image-section {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 0;
-}
-
-.experience-image {
-    width: 100%;
-    height: 100%;
-    max-height: 600px;
-    object-fit: contain;
-    border-radius: 8px;
-}
-
 /* Timeline Styles */
 .timeline {
     position: relative;
     padding: 20px 0;
+    margin-top: 20px;
 }
 
 .timeline::before {
@@ -232,4 +202,18 @@ I also write -- check out my garden.
     .timeline-date {
         margin-top: 5px;
     }
+}
+
+/* Bottom Image */
+.bottom-image {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.bottom-image img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
 }</style>
