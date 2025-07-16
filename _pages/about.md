@@ -19,7 +19,7 @@ I also write -- check out my garden.
 <div class="content">
     <div class="text-container">
         <h3>Singh Lab / B-cell Bifurcation</h3>
-        <p class="project-brief"> scRNA, LIMS, data analysis, iPS culturing, flow</p>
+        <p class="project-brief"> scRNA, LIMS, iPS culturing, data analysis, flow</p>
         <p class="project-details">Built a single-cell database using shiny; got comfortable with single-cell workflows and different data types. Wet lab experiments included westerns, genotyping, DNA/RNA extraction, plasmid design+transfection.</p>
     </div>
     <img class="project-image" src="images/project1.jpg" alt="Project 1 Image">
@@ -27,9 +27,9 @@ I also write -- check out my garden.
 
 <div class="content">
     <div class="text-container">
-        <h3>Another Lab/Project Name</h3>
-        <p class="project-brief">Another brief description of this project or research work.</p>
-        <p class="project-details">My contributions included: Explain what you specifically worked on, the tools you used, and the outcomes achieved in this project.</p>
+        <h3>Xu Lab/Project Name</h3>
+        <p class="project-brief">ML, computer vision, Cryo-ET.</p>
+        <p class="project-details">Learning about computer vision methods from some amazing grad students at CMU and picking it up myself as well. More to come on my Google Scholar.</p>
     </div>
     <img class="project-image" src="images/project2.jpg" alt="Project 2 Image">
 </div>
@@ -37,8 +37,8 @@ I also write -- check out my garden.
 <div class="content">
     <div class="text-container">
         <h3>GSK / Rockville, MD</h3>
-        <p class="project-brief">Bioprocessing, BLA campaign materials, Data Capture and Analysis.</p>
-        <p class="project-details">Worked on a second-generation Lupus mAB, wrote a bunch of reports for an FDA campaign (which we passed!!), and learned from fantastic engineers.</p>
+        <p class="project-brief">Bioprocessing, BLA campaign materials, treatment pipelines</p>
+        <p class="project-details">Worked on a second-generation Lupus mAB, wrote a bunch of reports for an FDA campaign (which we passed ! !), and learned about therapeutics from fantastic engineers.</p>
     </div>
     <img class="project-image" src="images/project3.jpg" alt="Project 3 Image">
 </div>
