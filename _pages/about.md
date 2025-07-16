@@ -29,7 +29,7 @@ I also write -- check out my garden.
     <div class="text-container">
         <h3>Xu Lab / CryoET Data Analysis</h3>
         <p class="project-brief">ML, computer vision</p>
-        <p class="project-details">Learning about computer vision methods from some amazing grad students at CMU and picking it up myself as well. More to come on my Google Scholar.</p>
+        <p class="project-details">In progress. More to come on my Google Scholar.</p>
     </div>
     <img class="project-image" src="images/project2.jpg" alt="Project 2 Image">
 </div>
