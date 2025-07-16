@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior at Pitt studying Biology+Philosophy. Currently, I'm working with [Dr. Harinder Singh](https://scholar.google.com/citations?user=lwaeuvkAAAAJ&hl=en) and [Dr. Min Xu](https://xulabs.github.io/min-xu/) at the Center for Systems Immunology (Pitt) and Ray and Stephanie Lane Computational Biology Department at Carnegie Mellon Univesity. 
+I am a senior at Pitt studying Biology+Philosophy. Currently, I'm working with [Dr. Harinder Singh](https://scholar.google.com/citations?user=lwaeuvkAAAAJ&hl=en) and [Dr. Min Xu](https://xulabs.github.io/min-xu/) at the Center for Systems Immunology (Pitt) and the Ray and Stephanie Lane Computational Biology Department at Carnegie Mellon University. 
 
-I am interested in translational science -- both wet and dry -- and have focused a majortiy of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. My wet lab projects have revolved around pharmacological compound testing, developing cellular assays, and studying cell fate. Previously worked at GSK.
+I am interested in translational science -- both wet and dry -- and have focused a majortiy of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. My wet lab projects have revolved around testing pharmacological compounds, developing cellular assays, and studying cell fate. Previously worked at GSK.
 
 I also write -- check out my garden. 
 
@@ -36,9 +36,9 @@ I also write -- check out my garden.
 
 <div class="content">
     <div class="text-container">
-        <h3>Third Project/Research Title</h3>
-        <p class="project-brief">One-line summary of what this project was about.</p>
-        <p class="project-details">In this role, I: Describe your specific tasks, achievements, and the impact of your work on the project.</p>
+        <h3>GSK / Rockville, MD</h3>
+        <p class="project-brief">Bioprocessing, BLA campaign materials, Data Capture and Analysis.</p>
+        <p class="project-details">Worked on a second-generation Lupus mAB, wrote a bunch of reports for an FDA campaign (which we passed!!), and learned from fantastic engineers.</p>
     </div>
     <img class="project-image" src="images/project3.jpg" alt="Project 3 Image">
 </div>
