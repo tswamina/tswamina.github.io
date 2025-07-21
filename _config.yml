@@ -86,7 +86,7 @@ author:
   location         : "pittsburgh/nyc"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : ""
+  googlescholar    : #""
   email            : "tanush.swaminathan@pitt.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
