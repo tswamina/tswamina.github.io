@@ -12,7 +12,7 @@ I am a senior at Pitt studying Biology+Philosophy. Currently, I'm working with [
 
 I am interested in translational science -- both wet and dry -- and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. My wet lab projects have revolved around testing pharmacological compounds, developing cellular assays, and studying cell fate. Previously worked at GSK.
 
-I also write -- check out my garden.
+I also write -- check out my [garden](garden.swaminathan.com).
 
 ## Experience
 
