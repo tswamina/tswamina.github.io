@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior at Pitt studying Biology+Philosophy. 
+I am a senior at Pitt studying Biology+Philosophy. I currently work in Dr. Min Xu's lab at CMU SCS.
 
 I am interested in translational science -- both wet and dry -- and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. My wet lab projects have revolved around testing pharmacological compounds, developing cellular assays, and studying cell fate. Previously worked at GSK.
 
@@ -21,10 +21,10 @@ I also write -- check out my [garden](https://garden.tanushswaminathan.com).
         <div class="timeline-marker"></div>
         <div class="timeline-content">
             <div class="timeline-header">
-                <h3></h3>
+                <h3>Xu Lab / ML, Microscopy</h3>
                 <span class="timeline-date">Jul 2025 - Present</span>
             </div>
-            <p class="timeline-description"></p>
+            <p class="timeline-description">Implementing ML methods in Cryo-ET imaging/segmentation.</p>
             <p class="timeline-skills"></p>
         </div>
     </div>
