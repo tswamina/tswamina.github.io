@@ -12,7 +12,7 @@ I am a senior at Pitt studying Biology+Philosophy. I currently work in Dr. Min X
 
 I am interested in translational science -- both wet and dry -- and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. My wet lab projects have revolved around testing pharmacological compounds, developing cellular assays, and studying cell fate. Currently working on foundation models for trajectory and perturbation prediction, as well as microscropy ML models. Previously worked at GSK.
 
-I also write -- check out my [garden](https://garden.tanushswaminathan.com).
+I also write -- check out my [garden](https://garden.tanushswaminathan.com)
 
 ## Experience
 
