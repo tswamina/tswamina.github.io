@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Tanush"
   avatar           : "Cropped_Image.png"
-  bio              : "Undergrad @ Pitt"
-  location         : "pittsburgh/nyc"
+  bio              : "Researcher @ Allen Institute"
+  location         : "seattle/nyc"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #""
-  email            : "tanush.swaminathan@pitt.edu"
+  email            : "tanush.swaminathan@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
