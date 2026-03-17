@@ -8,75 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior at Pitt studying Biology+Philosophy. I currently work in Dr. Min Xu's lab at CMU SCS.
+I am an incoming researcher at the Allen Institute in Seattle. I was previously a visiting researcher in Dr. Min Xu's lab at CMU SCS.
 
-I am interested in translational science -- both wet and dry -- and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. My wet lab projects have revolved around testing pharmacological compounds, developing cellular assays, and studying cell fate. Currently working on foundation models for trajectory and perturbation prediction, as well as microscropy ML models. Previously worked at GSK.
+I am interested in translational science and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. Currently working on foundation models for cell trajectory and perturbation prediction, as well as computer vision models for microscopy. 
 
-I also write -- check out my [garden](https://garden.tanushswaminathan.com)
-
-## Experience
-
-<div class="timeline">
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>Xu Lab / ML, Microscopy</h3>
-                <span class="timeline-date">Jul 2025 - Present</span>
-            </div>
-            <p class="timeline-description">Implementing ML methods in Cryo-ET imaging/segmentation.</p>
-            <p class="timeline-skills"></p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>Singh Lab / B-cell Bifurcation</h3>
-                <span class="timeline-date">Sep 2024 - Present</span>
-            </div>
-            <p class="timeline-description">Built a single-cell database using shiny; got comfortable with single-cell workflows and different data types. Wet lab experiments included westerns, genotyping, DNA/RNA extraction, plasmid design+transfection.</p>
-            <p class="timeline-skills">scRNA, LIMS, iPS culturing, data analysis, flow</p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>Contrary / Research Fellow</h3>
-                <span class="timeline-date">Feb 2024 - Sep 2024</span>
-            </div>
-            <p class="timeline-description">Worked with the Contrary writing team to publish memos on impactful startups. Check out research.contrary.com</p>
-            <p class="timeline-skills">sprint writing, landscape analysis, research</p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>GSK / MSAT and R&D</h3>
-                <span class="timeline-date">Jun 2023 - Dec 2023</span>
-            </div>
-            <p class="timeline-description">Worked on a second-generation Lupus mAB, wrote a bunch of reports for an FDA campaign (which we passed!!), and learned about therapeutics from fantastic engineers.</p>
-            <p class="timeline-skills">bioprocessing, BLA campaign readiness, treatment pipelines, mAB development</p>
-        </div>
-    </div>
-
-    <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-            <div class="timeline-header">
-                <h3>TASS Alum / Volunteer and Interviewer</h3>
-                <span class="timeline-date">Aug 2020 - Present</span>
-            </div>
-            <p class="timeline-description">A summer program I took part in at Cornell during my junior year of high school. I learned about the art of rhetoric and read books that changed me. tellurideassociation.org</p>
-            <p class="timeline-skills">writing, critical reading, community, democratic values</p>
-        </div>
-    </div>
-</div>
+Check out some of what I've built and wrote: [garden](https://garden.tanushswaminathan.com)
 
 <style>
 /* Timeline Styles */
