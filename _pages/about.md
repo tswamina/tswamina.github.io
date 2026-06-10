@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am an applied AI researcher at the Allen Institute (Immunology) in Seattle. I was previously a researcher in Dr. Min Xu's lab at CMU SCS.
+I am an applied AI researcher at the Allen Institute in Seattle. I was previously a researcher in Professor [Min Xu's](https://xulabs.github.io/min-xu/) lab at CMU SCS.
 
-I am interested in translational science and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. Currently working on foundation models for cell trajectory and perturbation prediction, as well as computer vision models for microscopy. 
+I am interested in translational science and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. Currently working on foundation models. Also interested in technical governance and AI safety; currently working on eval awareness with [Kevin Wei](https://kevinlwei.com/).
 
-Check out some of what I've built and wrote: [garden](https://garden.tanushswaminathan.com)
+[garden](https://garden.tanushswaminathan.com)
 
 <style>
 /* Timeline Styles */
