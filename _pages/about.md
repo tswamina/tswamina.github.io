@@ -9,7 +9,7 @@ redirect_from:
 
 I am an applied AI researcher at the Allen Institute in Seattle. I was previously a researcher in Professor [Min Xu's](https://xulabs.github.io/min-xu/) lab at CMU SCS.
 
-I am interested in translational science and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. Currently working on foundation models with [Ziyuan He](https://alleninstitute.org/person/ziyuan-he), [Abhejit Rajagpola](https://abhe.net/) and co-mentored by [Michael Buice](https://alleninstitute.org/person/michael-buice). Also interested in mech interp, technical governance, and AI safety; currently working on eval awareness with [Kevin Wei](https://kevinlwei.com/).
+I am interested in translational science and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. Currently working on foundation models with [Ziyuan He](https://alleninstitute.org/person/ziyuan-he), [Abhejit Rajagpola](https://abhe.net/) and co-mentored by [Michael Buice](https://alleninstitute.org/person/michael-buice). Also interested in mech interp, technical governance, and AI safety; currently working on eval awareness with [Kevin Wei](https://kevinlwei.com/) and CBAI/Pivotal. 
 
 [garden](https://garden.tanushswaminathan.com)
 
