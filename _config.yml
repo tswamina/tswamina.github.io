@@ -86,7 +86,7 @@ author:
   location         : "seattle/nyc"
   employer         :
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #""
+  googlescholar    : "https://scholar.google.com/citations?user=ElXRAtsAAAAJ&hl=en"
   email            : "tanush.swaminathan@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
