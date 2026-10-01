@@ -11,7 +11,7 @@ I am a predoctoral applied AI researcher at the Allen Institute in Seattle. I wa
 
 I am interested in translational science and have focused a majority of my learning on transcriptomics, single-cell pipelines, and using computational techniques to analyze cellular systems and 3D image data. Currently working on foundation models with [Ziyuan He](https://alleninstitute.org/person/ziyuan-he), [Abhejit Rajagopal](https://alleninstitute.org/person/abhe-rajagopal) and co-mentored by [Michael Buice](https://alleninstitute.org/person/michael-buice). Also interested in mech interp, technical governance, and AI safety; currently working on eval awareness with [Kevin Wei](https://www.rand.org/about/people/w/wei_kevin.html) and CBAI/Pivotal. 
 
-[garden](https://garden.tanushswaminathan.com)
+Check out my [garden](https://garden.tanushswaminathan.com)
 
 <style>
 /* Timeline Styles */
