@@ -179,6 +179,7 @@ select:focus-visible {
   height: 120px;
   object-fit: cover;
   border-radius: 0;
+  transition: none;
 }
 
 .profile-copy {
@@ -218,14 +219,21 @@ select:focus-visible {
   .garden-frame { padding: 20px; }
 
   .profile-intro {
-    grid-template-columns: 100px minmax(0, 1fr);
-    gap: 22px;
+    grid-template-columns: 9.24em minmax(0, 1fr);
+    align-items: start;
+    gap: 20px;
   }
 
   .profile-photo {
-    width: 100px;
-    height: 100px;
+    width: 9.24em;
+    height: 9.24em;
   }
 
   .profile-links a { padding: 16px 0; }
+}
+
+/* Five lines of intro text on wider phones; six on standard iPhone widths. */
+@media (min-width: 425px) and (max-width: 683px) {
+  .profile-intro { grid-template-columns: 7.7em minmax(0, 1fr); }
+  .profile-photo { width: 7.7em; height: 7.7em; }
 }
