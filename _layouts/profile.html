@@ -14,7 +14,10 @@ layout: compress
         <a class="profile-wordmark" href="{{ base_path }}/" aria-label="Tanush Swaminathan — home">{{ site.title | downcase }}</a>
       </header>
       <main class="profile-page" aria-label="About Tanush Swaminathan">
-        <img class="profile-photo" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Tanush Swaminathan" width="160" height="160" fetchpriority="high">
+        <div class="profile-intro">
+          <img class="profile-photo" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Tanush Swaminathan" width="160" height="160" fetchpriority="high">
+          <div>{{ page.intro | markdownify }}</div>
+        </div>
         <div class="profile-copy">
           {{ content }}
           {% include profile-links.html %}

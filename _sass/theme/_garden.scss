@@ -157,20 +157,26 @@ select:focus-visible {
 }
 
 .profile-page {
-  display: grid;
-  grid-template-columns: 140px minmax(0, 1fr);
-  gap: 28px;
   width: 100%;
   margin: 20px auto 0;
   padding: 20px 0;
   text-align: left;
 }
 
+.profile-intro {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  align-items: center;
+  gap: 28px;
+  margin: 16px 0 24px;
+}
+
+.profile-intro p { margin: 0; }
+
 .profile-photo {
   display: block;
-  width: 140px;
-  height: 140px;
-  margin-top: 16px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 0;
 }
@@ -184,7 +190,7 @@ select:focus-visible {
   margin: 16px 0 20px;
 }
 
-.profile-copy a {
+.profile-page a {
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }
@@ -211,13 +217,14 @@ select:focus-visible {
 @media (max-width: 683px) {
   .garden-frame { padding: 20px; }
 
-  .profile-page { display: block; }
+  .profile-intro {
+    grid-template-columns: 100px minmax(0, 1fr);
+    gap: 22px;
+  }
 
   .profile-photo {
-    float: left;
     width: 100px;
     height: 100px;
-    margin: 16px 22px 12px 0;
   }
 
   .profile-links a { padding: 16px 0; }
