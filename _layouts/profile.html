@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+  <body class="profile-site">
+    <div class="garden-frame">
+      <header class="profile-header">
+        <a class="profile-wordmark" href="{{ base_path }}/" aria-label="Tanush Swaminathan — home">{{ site.title | downcase }}</a>
+      </header>
+      <main class="profile-page" aria-label="About Tanush Swaminathan">
+        <img class="profile-photo" src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Tanush Swaminathan" width="160" height="160" fetchpriority="high">
+        <div class="profile-copy">
+          {{ content }}
+          {% include profile-links.html %}
+        </div>
+      </main>
+    </div>
+    {% include analytics.html %}
+  </body>
+</html>

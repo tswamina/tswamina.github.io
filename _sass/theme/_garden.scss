@@ -25,9 +25,9 @@ html[data-theme="dark"] {
   --global-code-background-color: #171717;
   --global-code-text-color: #f5f5f5;
   --global-fig-caption-color: #999;
-  --global-link-color: #9ba09b;
-  --global-link-color-hover: #fff;
-  --global-link-color-visited: #9ba09b;
+  --global-link-color: #79b8ff;
+  --global-link-color-hover: #b9dbff;
+  --global-link-color-visited: #79b8ff;
   --global-masthead-link-color: #f5f5f5;
   --global-masthead-link-color-hover: #fff;
   --global-text-color: #f5f5f5;
@@ -35,7 +35,19 @@ html[data-theme="dark"] {
   --global-thead-color: #171717;
 }
 
-html { font-size: 16px; }
+html {
+  font-size: 16px;
+  zoom: 0.8;
+  scrollbar-gutter: stable;
+}
+
+@supports not (zoom: 0.8) {
+  html {
+    transform: scale(0.8);
+    transform-origin: top left;
+    width: 125%;
+  }
+}
 
 body {
   line-height: 1.54;
@@ -110,4 +122,103 @@ select:focus-visible {
 
 @media (prefers-reduced-motion: reduce) {
   a, button { transition: none; }
+}
+
+/* Use the garden's frame and wordmark metrics so navigation preserves position. */
+.profile-site {
+  padding: 0;
+  font-feature-settings: "liga";
+}
+
+.garden-frame {
+  display: flex;
+  flex-direction: column;
+  max-width: 864px;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-wordmark,
+.profile-wordmark:visited,
+.profile-wordmark:hover {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.54;
+  text-decoration: none;
+}
+
+.profile-page {
+  display: grid;
+  grid-template-columns: 140px minmax(0, 1fr);
+  gap: 28px;
+  width: 100%;
+  margin: 20px auto 0;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.profile-photo {
+  display: block;
+  width: 140px;
+  height: 140px;
+  margin-top: 16px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.profile-copy {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.profile-copy p {
+  margin: 16px 0 20px;
+}
+
+.profile-copy a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.profile-links {
+  clear: both;
+  margin: 24px 0 0;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.profile-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.profile-links li::marker { color: #888; }
+
+.profile-links a {
+  display: inline-block;
+  padding: 5px 0;
+}
+
+@media (max-width: 683px) {
+  .garden-frame { padding: 20px; }
+
+  .profile-page { display: block; }
+
+  .profile-photo {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 16px 22px 12px 0;
+  }
+
+  .profile-links a { padding: 16px 0; }
 }
