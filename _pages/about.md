@@ -28,7 +28,7 @@ Check out my [garden](https://garden.tanushswaminathan.com)
     top: 0;
     bottom: 0;
     width: 2px;
-    background: #e0e0e0;
+    background: var(--global-border-color);
 }
 
 .timeline-item {
@@ -43,13 +43,13 @@ Check out my [garden](https://garden.tanushswaminathan.com)
     top: 5px;
     width: 14px;
     height: 14px;
-    background: #333;
+    background: var(--global-base-color);
     border-radius: 50%;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #e0e0e0;
+    box-shadow: 0 0 0 3px var(--global-bg-color), 0 0 0 5px var(--global-border-color);
 }
 
 .timeline-content {
-    background: #fff;
+    background: var(--global-bg-color);
     padding: 0;
 }
 
@@ -65,24 +65,24 @@ Check out my [garden](https://garden.tanushswaminathan.com)
     margin: 0;
     font-size: 1.2em;
     font-weight: 600;
-    color: #333;
+    color: var(--global-text-color);
 }
 
 .timeline-date {
     font-size: 0.9em;
-    color: #666;
+    color: var(--global-text-color-light);
     font-style: italic;
 }
 
 .timeline-description {
-    color: #555;
+    color: var(--global-text-color);
     line-height: 1.6;
     margin-bottom: 8px;
     font-size: 0.95em;
 }
 
 .timeline-skills {
-    color: #777;
+    color: var(--global-text-color-light);
     font-style: italic;
     font-size: 0.9em;
     margin: 0;

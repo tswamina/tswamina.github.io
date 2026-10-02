@@ -1,0 +1,113 @@
+/* Match garden.tanushswaminathan.com, including saved browser theme settings. */
+@font-face {
+  font-family: "Fira Code";
+  src: url("../fonts/FiraCode-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("../fonts/FiraCode-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root,
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --global-base-color: #9ba09b;
+  --global-bg-color: #000;
+  --global-border-color: #333;
+  --global-dark-border-color: #888;
+  --global-code-background-color: #171717;
+  --global-code-text-color: #f5f5f5;
+  --global-fig-caption-color: #999;
+  --global-link-color: #9ba09b;
+  --global-link-color-hover: #fff;
+  --global-link-color-visited: #9ba09b;
+  --global-masthead-link-color: #f5f5f5;
+  --global-masthead-link-color-hover: #fff;
+  --global-text-color: #f5f5f5;
+  --global-text-color-light: #999;
+  --global-thead-color: #171717;
+}
+
+html { font-size: 16px; }
+
+body {
+  line-height: 1.54;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a:visited { color: var(--global-link-color-visited); }
+a:hover { color: var(--global-link-color-hover); }
+
+.page__content a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.masthead a:visited { color: var(--global-masthead-link-color); }
+
+.author__urls a:visited { color: inherit; }
+
+.social-icons .fa,
+.social-icons .fas,
+.social-icons .fab,
+.social-icons .ai { color: #9ba09b; }
+
+.sidebar p,
+.sidebar li { font-size: 0.875rem; }
+
+.btn,
+.pagination li a.current {
+  color: #000 !important;
+  background-color: #9ba09b;
+}
+
+.btn:hover,
+.btn:focus-visible { background-color: #f5f5f5; }
+
+.btn--inverse,
+.btn--light-outline {
+  color: #f5f5f5 !important;
+  background-color: #171717;
+}
+
+.btn--inverse:hover,
+.btn--light-outline:hover { color: #000 !important; }
+
+.greedy-nav .hidden-links,
+input,
+textarea,
+select { background-color: #171717; }
+
+input,
+textarea,
+select { border-color: #888; }
+
+::placeholder { color: #999; opacity: 1; }
+
+.author__urls:after { border-bottom-color: #000; }
+.greedy-nav .hidden-links:after { border-bottom-color: #171717; }
+
+figcaption a:hover { color: #fff; border-color: #fff; }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid #f5f5f5;
+  outline-offset: 4px;
+}
+
+::selection { color: #000; background: #9ba09b; }
+
+@media (prefers-reduced-motion: reduce) {
+  a, button { transition: none; }
+}
