@@ -117,12 +117,15 @@ select:focus-visible {
 
 /* Use the garden's frame and wordmark metrics so navigation preserves position. */
 .profile-site {
+  position: relative;
+  min-height: 100vh;
+  min-height: 100dvh;
   padding: 0 0 64px;
   font-feature-settings: "liga";
 }
 
 #home-ping {
-  position: fixed;
+  position: absolute;
   right: 16px;
   bottom: 12px;
   color: var(--global-text-color);
