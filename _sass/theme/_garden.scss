@@ -130,29 +130,16 @@ select:focus-visible {
   font-feature-settings: "liga";
 }
 
-.profile-corner {
+#home-ping {
   position: fixed;
   right: 16px;
   bottom: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
   color: var(--global-text-color);
   font-size: .75rem;
   line-height: 1.3;
   font-variant-numeric: tabular-nums;
+  pointer-events: none;
 }
-
-.profile-corner a,
-.profile-corner a:visited {
-  color: inherit;
-  text-decoration: none;
-}
-
-.profile-corner a:hover { color: inherit; }
-
-.profile-corner #home-ping { color: var(--global-text-color); }
 
 .garden-frame {
   display: flex;
