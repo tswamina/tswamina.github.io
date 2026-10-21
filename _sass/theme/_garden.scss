@@ -152,6 +152,8 @@ select:focus-visible {
 
 .profile-corner a:hover { color: #ccc; }
 
+.profile-corner #home-ping { color: var(--global-text-color); }
+
 .garden-frame {
   display: flex;
   flex-direction: column;
