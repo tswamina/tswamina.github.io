@@ -221,6 +221,7 @@ select:focus-visible {
 }
 
 @media (max-width: 683px) {
+  #home-ping { right: 50%; transform: translateX(50%); }
   .garden-frame { padding: 20px; }
 
   .profile-intro {
