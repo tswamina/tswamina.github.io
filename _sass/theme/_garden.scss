@@ -115,7 +115,7 @@ select:focus-visible {
   a, button { transition: none; }
 }
 
-/* Use the garden's frame and wordmark metrics so navigation preserves position. */
+/* Shared frame and wordmark metrics. */
 .profile-site {
   position: relative;
   min-height: 100vh;
@@ -241,4 +241,19 @@ select:focus-visible {
 @media (min-width: 425px) and (max-width: 683px) {
   .profile-intro { grid-template-columns: 7.7em minmax(0, 1fr); }
   .profile-photo { width: 7.7em; height: 7.7em; }
+}
+
+/* Center the complete profile on tablets and larger screens, in either orientation.
+   Auto margins collapse naturally when the content needs to scroll. */
+@media (min-width: 684px) {
+  .profile-site {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 0;
+  }
+
+  .garden-frame {
+    width: 100%;
+    margin: auto;
+  }
 }
