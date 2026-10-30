@@ -181,8 +181,8 @@ select:focus-visible {
 .profile-photo {
   display: block;
   width: 120px;
-  height: 120px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: 0;
   transition: none;
 }
@@ -231,7 +231,7 @@ select:focus-visible {
 
   .profile-photo {
     width: 9.24em;
-    height: 9.24em;
+    height: auto;
   }
 
   .profile-links a { padding: 16px 0; }
@@ -240,7 +240,7 @@ select:focus-visible {
 /* Five lines of intro text on wider phones; six on standard iPhone widths. */
 @media (min-width: 425px) and (max-width: 683px) {
   .profile-intro { grid-template-columns: 7.7em minmax(0, 1fr); }
-  .profile-photo { width: 7.7em; height: 7.7em; }
+  .profile-photo { width: 7.7em; height: auto; }
 }
 
 /* Center the complete profile on tablets and larger screens, in either orientation.
